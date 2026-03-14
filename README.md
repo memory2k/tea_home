@@ -1,6 +1,6 @@
 # 茶录
 
-一个前后端分离的茶资料站：
+一个前后端分离的私人茶室，记录自己用到的茶具、茶叶以及泡茶实用的饮用水，分享泡茶、品茶的感受：
 
 - `frontend/`：Vue 3 + Vite 前端
 - `backend/`：Django + Django Admin + REST API
