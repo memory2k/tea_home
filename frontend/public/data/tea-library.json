@@ -1,0 +1,269 @@
+{
+  "categories": [
+    {
+      "id": "tea-ware",
+      "name": "茶具",
+      "description": "收录冲泡与辅助器具，便于按功能、材质与使用场景维护资料。",
+      "subcategories": [
+        {
+          "id": "tea-tray",
+          "name": "茶盘"
+        },
+        {
+          "id": "tea-clip",
+          "name": "茶夹"
+        },
+        {
+          "id": "gaiwan",
+          "name": "盖碗"
+        },
+        {
+          "id": "host-cup",
+          "name": "主人杯"
+        },
+        {
+          "id": "guest-cup",
+          "name": "客人杯"
+        }
+      ],
+      "items": [
+        {
+          "id": "bamboo-tray",
+          "subcategoryId": "tea-tray",
+          "name": "竹制干泡茶盘",
+          "origin": "福建",
+          "summary": "适合日常干泡场景，强调轻量、排水简洁与木质触感。",
+          "tags": ["竹材", "干泡", "轻便"],
+          "scene": "家用茶席、两三人日常饮茶",
+          "features": ["导水顺畅", "纹理自然", "重量较轻"],
+          "pairing": "适合白茶、绿茶等重视桌面留白的冲泡场景。",
+          "notes": "可继续补充尺寸、排水结构、价格区间和保养方式。",
+          "purchaseLinks": [
+            {
+              "label": "淘宝购买",
+              "platform": "淘宝",
+              "url": "https://s.taobao.com/search?q=%E7%AB%B9%E5%88%B6%E5%B9%B2%E6%B3%A1%E8%8C%B6%E7%9B%98"
+            }
+          ]
+        },
+        {
+          "id": "stone-tray",
+          "subcategoryId": "tea-tray",
+          "name": "乌金石蓄水茶盘",
+          "origin": "广东",
+          "summary": "视觉沉稳，适合正式茶席与展示型空间。",
+          "tags": ["石材", "蓄水", "沉稳"],
+          "scene": "接待型茶室、陈列空间",
+          "features": ["耐看厚重", "表面细腻", "更偏正式"],
+          "pairing": "适合搭配岩茶、红茶等厚重风格的茶席叙事。",
+          "notes": "后续可增加重量、排水容量与适配壶型。",
+          "purchaseLinks": [
+            {
+              "label": "京东购买",
+              "platform": "京东",
+              "url": "https://search.jd.com/Search?keyword=%E4%B9%8C%E9%87%91%E7%9F%B3%E8%93%84%E6%B0%B4%E8%8C%B6%E7%9B%98"
+            }
+          ]
+        },
+        {
+          "id": "wooden-clip",
+          "subcategoryId": "tea-clip",
+          "name": "木质茶夹",
+          "origin": "浙江",
+          "summary": "用于夹取杯盏，强调防烫与礼仪动作的稳定性。",
+          "tags": ["木质", "礼仪", "防烫"],
+          "scene": "多人饮茶、盏杯清洗后取放",
+          "features": ["夹持稳定", "手感温和", "维护简单"],
+          "pairing": "适合作为基础茶席标配，适配多数器具风格。",
+          "notes": "可继续补充长度、夹口宽度与木种。",
+          "purchaseLinks": [
+            {
+              "label": "淘宝购买",
+              "platform": "淘宝",
+              "url": "https://s.taobao.com/search?q=%E6%9C%A8%E8%B4%A8%E8%8C%B6%E5%A4%B9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-leaves",
+      "name": "茶叶",
+      "description": "按茶类拆分条目，便于持续扩展品种、山场、工艺与年份信息。",
+      "subcategories": [
+        {
+          "id": "white-tea",
+          "name": "白茶"
+        },
+        {
+          "id": "green-tea",
+          "name": "绿茶"
+        },
+        {
+          "id": "jasmine-tea",
+          "name": "茉莉花茶"
+        },
+        {
+          "id": "black-tea",
+          "name": "红茶"
+        }
+      ],
+      "items": [
+        {
+          "id": "bai-mudan",
+          "subcategoryId": "white-tea",
+          "name": "白牡丹",
+          "origin": "福建福鼎",
+          "summary": "芽叶兼具，香气清润，适合做入门型白茶资料样本。",
+          "tags": ["白茶", "芽叶", "清润"],
+          "scene": "午后静饮、轻发酵风味对比",
+          "features": ["毫香明显", "汤感柔和", "耐泡度中等"],
+          "pairing": "适合搭配玻璃公道杯与低矿化度纯净水。",
+          "notes": "可后续增加年份、等级、采摘季和仓储方式。",
+          "purchaseLinks": [
+            {
+              "label": "天猫购买",
+              "platform": "天猫",
+              "url": "https://list.tmall.com/search_product.htm?q=%E7%99%BD%E7%89%A1%E4%B8%B9+%E8%8C%B6"
+            }
+          ]
+        },
+        {
+          "id": "longjing",
+          "subcategoryId": "green-tea",
+          "name": "龙井",
+          "origin": "浙江杭州",
+          "summary": "典型炒青绿茶，香气清高，适合承载产区与工艺的对比信息。",
+          "tags": ["绿茶", "炒青", "豆香"],
+          "scene": "春茶资料整理、产区比较",
+          "features": ["扁平外形", "清鲜香气", "水温要求较敏感"],
+          "pairing": "建议搭配玻璃杯或盖碗，使用低硬度水。",
+          "notes": "可补充核心产区、树种、采摘等级与火工。",
+          "purchaseLinks": [
+            {
+              "label": "京东购买",
+              "platform": "京东",
+              "url": "https://search.jd.com/Search?keyword=%E9%BE%99%E4%BA%95%E8%8C%B6"
+            }
+          ]
+        },
+        {
+          "id": "jasmine-snow",
+          "subcategoryId": "jasmine-tea",
+          "name": "茉莉银毫",
+          "origin": "福建福州",
+          "summary": "花香清雅，适合作为窨制工艺和香气层次的示例条目。",
+          "tags": ["花茶", "窨制", "清雅"],
+          "scene": "花香茶对比、夏季饮用",
+          "features": ["香气扬", "入口柔", "茶底细嫩"],
+          "pairing": "适合轻薄瓷杯与冷却后的纯净水。",
+          "notes": "后续可加入窨次、茶坯种类和香型描述。",
+          "purchaseLinks": [
+            {
+              "label": "淘宝购买",
+              "platform": "淘宝",
+              "url": "https://s.taobao.com/search?q=%E8%8C%89%E8%8E%89%E9%93%B6%E6%AF%AB"
+            }
+          ]
+        },
+        {
+          "id": "qimen",
+          "subcategoryId": "black-tea",
+          "name": "祁门红茶",
+          "origin": "安徽祁门",
+          "summary": "适合作为红茶条目模板，承载香型、工艺和冲泡建议。",
+          "tags": ["红茶", "花果香", "经典"],
+          "scene": "正式待客、冬季热饮",
+          "features": ["香气细腻", "汤色红亮", "适合多轮冲泡"],
+          "pairing": "建议搭配紫砂壶或瓷壶，矿泉水表现较稳定。",
+          "notes": "可加入工夫红茶分级、拼配说明与年份。",
+          "purchaseLinks": [
+            {
+              "label": "天猫购买",
+              "platform": "天猫",
+              "url": "https://list.tmall.com/search_product.htm?q=%E7%A5%81%E9%97%A8%E7%BA%A2%E8%8C%B6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "水",
+      "description": "记录不同水源对茶汤口感的影响，可继续扩展硬度、TDS 与口感笔记。",
+      "subcategories": [
+        {
+          "id": "purified-water",
+          "name": "纯净水"
+        },
+        {
+          "id": "mineral-water",
+          "name": "矿泉水"
+        },
+        {
+          "id": "tap-water",
+          "name": "自来水"
+        }
+      ],
+      "items": [
+        {
+          "id": "daily-purified",
+          "subcategoryId": "purified-water",
+          "name": "日常桶装纯净水",
+          "origin": "商用净化处理",
+          "summary": "风味干净，中性稳定，适合作为多类茶样的基础对照组。",
+          "tags": ["纯净", "中性", "稳定"],
+          "scene": "日常冲泡、横向对比",
+          "features": ["杂味少", "表现直接", "成本可控"],
+          "pairing": "适合绿茶、白茶等需要突出本味的茶类。",
+          "notes": "可后续加入品牌、TDS、煮沸后口感变化。",
+          "purchaseLinks": [
+            {
+              "label": "京东购买",
+              "platform": "京东",
+              "url": "https://search.jd.com/Search?keyword=%E6%A1%B6%E8%A3%85%E7%BA%AF%E5%87%80%E6%B0%B4"
+            }
+          ]
+        },
+        {
+          "id": "spring-mineral",
+          "subcategoryId": "mineral-water",
+          "name": "低矿化山泉矿泉水",
+          "origin": "天然山泉",
+          "summary": "矿物质适中，往往能增强汤感与香气的层次感。",
+          "tags": ["矿泉", "汤感", "层次"],
+          "scene": "红茶、岩茶、熟茶的增强对比",
+          "features": ["口感更饱满", "香气延展", "需关注硬度"],
+          "pairing": "适合需要提升厚度的茶类，但不宜过高硬度。",
+          "notes": "建议继续补充硬度、钙镁含量与适配茶类。",
+          "purchaseLinks": [
+            {
+              "label": "天猫购买",
+              "platform": "天猫",
+              "url": "https://list.tmall.com/search_product.htm?q=%E5%B1%B1%E6%B3%89%E7%9F%BF%E6%B3%89%E6%B0%B4"
+            }
+          ]
+        },
+        {
+          "id": "filtered-tap",
+          "subcategoryId": "tap-water",
+          "name": "净化后自来水",
+          "origin": "城市自来水二次过滤",
+          "summary": "成本低且获取方便，适合作为家庭日常使用的现实方案。",
+          "tags": ["自来水", "过滤", "家用"],
+          "scene": "家庭高频冲泡",
+          "features": ["取得方便", "口感受地区影响", "需过滤处理"],
+          "pairing": "适合作为基础日常方案，与纯净水做稳定性对比。",
+          "notes": "后续可补充地区差异、过滤方式与异味控制。",
+          "purchaseLinks": [
+            {
+              "label": "淘宝购买",
+              "platform": "淘宝",
+              "url": "https://s.taobao.com/search?q=%E8%87%AA%E6%9D%A5%E6%B0%B4%E8%BF%87%E6%BB%A4%E5%99%A8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

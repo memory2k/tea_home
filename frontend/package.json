@@ -1,0 +1,21 @@
+{
+  "name": "tea",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "python3 ../backend/manage.py runserver",
+    "test:backend": "DJANGO_USE_SQLITE_FOR_TESTS=1 python3 ../backend/manage.py test"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
+  }
+}

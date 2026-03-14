@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!backend/.env.example
+.vite/
+*.sqlite3
+
+frontend/node_modules/
+frontend/dist/
+
+backend/.tea_env/
+backend/staticfiles/
+backend/**/__pycache__/
+backend/**/*.pyc
