@@ -16,6 +16,7 @@
       <router-link to="/library/tea-ware">茶具</router-link>
       <router-link to="/library/tea-leaves">茶叶</router-link>
       <router-link to="/library/water">水</router-link>
+      <router-link to="/tasting">记录</router-link>
     </nav>
   </header>
 </template>

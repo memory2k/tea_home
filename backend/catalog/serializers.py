@@ -56,6 +56,16 @@ class ItemDetailSerializer(serializers.ModelSerializer):
         ]
 
 
+class ItemSelectSerializer(serializers.ModelSerializer):
+    category_name = serializers.CharField(source="subcategory.category.name", read_only=True)
+    category_slug = serializers.CharField(source="subcategory.category.slug", read_only=True)
+    subcategory_name = serializers.CharField(source="subcategory.name", read_only=True)
+
+    class Meta:
+        model = Item
+        fields = ["id", "name", "slug", "category_name", "category_slug", "subcategory_name"]
+
+
 class SubCategorySummarySerializer(serializers.ModelSerializer):
     item_count = serializers.IntegerField(read_only=True)
 

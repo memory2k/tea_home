@@ -9,6 +9,7 @@ from .serializers import (
     CategoryListSerializer,
     ItemDetailSerializer,
     ItemListSerializer,
+    ItemSelectSerializer,
 )
 
 
@@ -69,4 +70,16 @@ class ItemDetailView(APIView):
             slug=item_slug,
         )
         serializer = ItemDetailSerializer(item)
+        return Response(serializer.data)
+
+
+class ItemSelectListView(APIView):
+    def get(self, request):
+        items = Item.objects.select_related("subcategory", "subcategory__category").order_by(
+            "subcategory__category__display_order",
+            "subcategory__display_order",
+            "display_order",
+            "id",
+        )
+        serializer = ItemSelectSerializer(items, many=True)
         return Response(serializer.data)
